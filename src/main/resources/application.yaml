@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    username: sa
+    url: jdbc:hsqldb:mem:testdb
+    password: ''
+  jpa:
+    hibernate:
+      # not applicable for production
+      ddl-auto: create-drop
+input:
+  file-path: ${user.dir}/target/log-file.txt
+  execution-mode: execute
+  #execution-mode: generate-records
+  num-of-records: 1000
+logging:
+  level:
+    com.mycompany.log.processor: DEBUG
+
