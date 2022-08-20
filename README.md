@@ -44,6 +44,8 @@ This program offers two execution modes -
 
 * java -jar log-processor-1.0-SNAPSHOT.jar --input.file-path=./log-file.txt --input.execution-mode=generate-records --input.num-of-recods=1000
 
+Note: You can skip above step and provide your own input file.
+
 ## Process the input file
 
 * java -jar log-processor-1.0-SNAPSHOT.jar --input.file-path=./log-file.txt --input.execution-mode=execute --logging.level.com.mycompany.log.processor=DEBUG
