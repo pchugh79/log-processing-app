@@ -36,16 +36,17 @@ This program offers two execution modes -
 
 ## build
 
-mvn clean package
+* mvn clean package
   (log-processor-1.0-SNAPSHOT.jar will be created under target directory)
+* cd target  
 
 ## Generate input file
 
-java -jar log-processor-1.0-SNAPSHOT.jar --input.file-path=./log-file.txt --input.execution-mode=generate-records --input.num-of-recods=1000 --
+* java -jar log-processor-1.0-SNAPSHOT.jar --input.file-path=./log-file.txt --input.execution-mode=generate-records --input.num-of-recods=1000
 
 ## Process the input file
 
-java -jar log-processor-1.0-SNAPSHOT.jar --input.file-path=./log-file.txt --input.execution-mode=execute --logging.level.com.mycompany.log.processor=DEBUG
+* java -jar log-processor-1.0-SNAPSHOT.jar --input.file-path=./log-file.txt --input.execution-mode=execute --logging.level.com.mycompany.log.processor=DEBUG
 
 
 * Logs will have following statements:
