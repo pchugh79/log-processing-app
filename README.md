@@ -49,10 +49,10 @@ This program offers two execution modes -
 * java -jar log-processor-1.0-SNAPSHOT.jar --input.file-path=./log-file.txt --input.execution-mode=execute --logging.level.com.mycompany.log.processor=DEBUG
 
 
-* Logs will have following statements:
-2022-08-21 00:21:34.781 DEBUG 2399 --- [           main] c.m.log.processor.LogEventProcessor      : Records processing time 422816658 nano-secs
-2022-08-21 00:21:34.878  INFO 2399 --- [           main] c.m.l.p.LogEventProcessingApplication    : 143 Number of records with Finished processing timestamp greater than 4 ms.
+#### Logs will have following statements:
+* 2022-08-21 00:21:34.781 DEBUG 2399 --- [           main] c.m.log.processor.LogEventProcessor      : Records processing time 422816658 nano-secs
+* 2022-08-21 00:21:34.878  INFO 2399 --- [           main] c.m.l.p.LogEventProcessingApplication    : 143 Number of records with Finished processing timestamp greater than 4 ms.
 
-* Other logs to flag the records (sample below)
+#### Other logs to flag the records (sample below)
 2022-08-21 00:24:29.065 DEBUG 2508 --- [           main] c.m.l.p.LogEventProcessingApplication    : Record : id=143, eventId='14', type='APPLICATION_LOG', host='12345', eventDuration=5000
 
