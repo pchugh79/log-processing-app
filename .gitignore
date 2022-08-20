@@ -1,0 +1,13 @@
+*.bak
+*.log
+*.swp
+*.tmp
+*.iml
+.classpath
+.project
+.settings
+.springBeans
+dependency-reduced-pom.xml
+.DS_Store
+target/
+.idea/
